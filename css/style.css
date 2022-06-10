@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(../image/BG1.png);
+  height: 100%;
+  width: 100%;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 50px;
+  color: #FFFFFF;
+  z-index: 1;
+  /* position: relative;  */
+}
+
+a {
+  color: #FFFFFF;
+  padding-bottom: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  width: fit-content;
+  text-decoration: none;
+}
+
+.logo {
+  width: 55%;
+  margin: 0 auto;
+}
+
+.container-image {
+  height: 100vh;
+  padding: 50px; border: 1px solid;
+  background-color: #002b49;
+  background: url(../image/logo-background.svg) no-repeat center center / cover;
+  background-position: -17% 17%;
+  background-size: 127%;
+  position: relative;
+  z-index: 1;
+
+  background-color: rgba(0, 43, 73, 0.95);
+}
+
+.container-image::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+ /*  background-color: #002b49; */
+ /* background-color: rgba(0, 43, 73, 0.98); */
+ z-index: -1;
+}
+
+.prueba {
+  background-image: url(../image/BG2.png);
+}
+
+.container-text {
+  border: 1px solid #f3f3f3;
+  padding: 10px;
+  text-align: center; 
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  z-index: 10;
+
+}
+.title {
+  font-size: 140px;
+  padding: 10px 0;
+  font-weight: 700;
+}
+
+.slogan {
+  font-size: 32px;
+}
+.separate {
+  background-color: #F3F3F3;
+  width: 120px;
+  height: 0.5px;
+  margin: 50px auto;
+}
+
+p{
+  font-size: 18px;
+  padding-bottom: 20px;
+}
