@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Nuosu+SIL&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -24,6 +26,10 @@ a {
   text-decoration: none;
 }
 
+.container {
+  background-image: url(../image/BG2.png);
+}
+
 .logo {
   width: 55%; 
   margin: 0 auto;
@@ -38,7 +44,6 @@ a {
   background-size: 127%;
   position: relative;
   z-index: 1;
-
   background-color: rgba(0, 43, 73, 0.95);
 }
 
@@ -51,12 +56,10 @@ a {
   bottom: 0;
  /*  background-color: #002b49; */
  /* background-color: rgba(0, 43, 73, 0.98); */
- z-index: -1;
+  z-index: -1;
 }
 
-.prueba {
-  background-image: url(../image/BG2.png);
-}
+
 
 .container-text {
   border: 1px solid #f3f3f3;
@@ -74,10 +77,16 @@ a {
   font-size: 140px;
   padding: 10px 0;
   font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  letter-spacing: 5px;
 }
 
 .slogan {
-  font-size: 32px;
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  letter-spacing: 3.5px;
 }
 .separate {
   background-color: #F3F3F3;
@@ -86,7 +95,9 @@ a {
   margin: 50px auto;
 }
 
-p{
+.text{
   font-size: 18px;
   padding-bottom: 20px;
+  font-family: 'Nuosu SIL', serif;
+  letter-spacing: 2px;
 }
